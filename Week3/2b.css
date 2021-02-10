@@ -3,10 +3,12 @@ body{
 	grid-template-columns: 20%, 60% 20%;
 	grid-template-rows: auto;
 	grid-template-areas: 	"header header header"
-							"nav nav nav"
-							"main main aside"
+							"nav main main"
 							"footer footer footer";
 }
+
+
+
 
 header {
 background-color: blue;
@@ -27,19 +29,14 @@ grid-area: nav;
 }
 
 main {
-background-color: blue;
+background-color: darkblue;
 color: white;
 padding: 20px;
 grid-area: main;
 
 }
 
-aside {
-background-color: lightgreen;
-color: black;
-padding: 20px;
-grid-area: aside;
-}
+
 
 footer {
 background-color: darkgreen;
@@ -48,10 +45,4 @@ padding: 20px;
 grid-area: footer;
 }
 
-.box{
 
-display: flex; 
-justify-content: center; 
-align-content: center;
-
-}

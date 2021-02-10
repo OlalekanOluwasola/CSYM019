@@ -1,11 +1,11 @@
 body{
 	display: grid;
-	grid-template-columns: 20%, 60% 20%;
+	grid-template-columns: 50%, 50%;
 	grid-template-rows: auto;
-	grid-template-areas: 	"header header header"
-							"nav nav nav"
-							"main main aside"
-							"footer footer footer";
+	grid-template-areas: 	"header header"
+							"nav nav"
+							"main aside"
+							"footer footer";
 }
 
 header {
@@ -15,6 +15,13 @@ padding: 20px;
 grid-area: header;
 
 }
+
+li{
+	display: block;
+	width: 400px;
+	float: left;
+}
+
 
 nav {
 background-color: yellow;
@@ -48,10 +55,4 @@ padding: 20px;
 grid-area: footer;
 }
 
-.box{
-
-display: flex; 
-justify-content: center; 
-align-content: center;
-
-}
+.
